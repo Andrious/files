@@ -1,21 +1,23 @@
 name: file_utils
 description: File Utilities Library
-version: 0.0.1
+version: 0.1.0
 author:
 homepage:
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '>=2.0.0 <5.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
   # https://pub.dartlang.org/packages/path_provider#-changelog-tab-
-  path_provider: "^0.4.0"
+  path_provider:
+  #"^0.4.0"
 
   # https://pub.dartlang.org/packages/uuid#-changelog-tab-
-  uuid: "^1.0.0"
+  uuid:
+  #"^1.0.0"
 
 dev_dependencies:
   flutter_test:
